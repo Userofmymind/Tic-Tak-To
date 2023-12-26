@@ -13,7 +13,7 @@ namespace cz
 		//___________________________________
 		//--------------WINDOW---------------
 
-		window_name = L"Крестики нолики 10 на 10";
+		window_name = "Tic-Tac-Toe 10x10";
 		window_size = sf::Vector2i(1000, 750);
 		window_style = sf::Style::Close;
 		window_context_settings.antialiasingLevel = 12;
