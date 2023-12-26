@@ -51,13 +51,13 @@ namespace cz
 
 		//___________________________________
 		//--------------MENU-----------------
-		main_menu["PLAY_WITH_BOT"] = new cz::Main_Menu_Bar(&font, L"Играть с ботом", sf::Vector2i(100, 100));
-		main_menu["PLAY_WITH_PLAYER"] = new cz::Main_Menu_Bar(&font, L"Играть с другом", sf::Vector2i(100, 200));
-		main_menu["EXIT"] = new cz::Main_Menu_Bar(&font, L"Выход", sf::Vector2i(100, 300));
+		main_menu["PLAY_WITH_BOT"] = new cz::Main_Menu_Bar(&font, "Play with bot", sf::Vector2i(100, 100));
+		main_menu["PLAY_WITH_PLAYER"] = new cz::Main_Menu_Bar(&font, "Play with friend", sf::Vector2i(100, 200));
+		main_menu["EXIT"] = new cz::Main_Menu_Bar(&font, "Exit", sf::Vector2i(100, 300));
 
 
 		//exit button
-		exit_button = new Main_Menu_Bar(&font, L"Выйти в меню", sf::Vector2i(0, 0));
+		exit_button = new Main_Menu_Bar(&font, "Exit to menu", sf::Vector2i(0, 0));
 		exit_button->set_position(sf::Vector2i(window_size.x/2 - exit_button->get_local_bounds().width / 2, 600));
 		exit_button->hide();
 			
